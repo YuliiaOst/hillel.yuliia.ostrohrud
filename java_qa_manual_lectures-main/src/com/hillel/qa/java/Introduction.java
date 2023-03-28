@@ -40,6 +40,35 @@ public class Introduction {
          */
         System.out.println("Hello world");
 
+        String country = "Ukraine";
+        int salary = 10000;
+        double price = 40.5;
+
+        double a = 6.2;
+        double b = 3.4;
+
+        double result = a * b;
+
+        System.out.println("a * b = " + result);
+
+        boolean isStudent = true;
+        boolean isExcellentStudent = true;
+        boolean hasScholarship = true;
+        System.out.println(isStudent && hasScholarship && isExcellentStudent);
+
+        double bodyTemperature = 36.6;
+
+        if (bodyTemperature < 36.6) {
+            System.out.println("Ви маєте низьку температуру, зверніться до лікарні!");
+        }else if (bodyTemperature == 36.6){
+            System.out.println("Ви здоровий!");
+        } else {
+            System.out.println("Ви маєте високу температуру, зверніться до лікарні!");
+        }
+
+
+
+
         // TODO: Створіть свій клас та виведіть там "QA це круто!"
     }
 }
