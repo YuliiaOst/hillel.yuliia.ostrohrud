@@ -23,5 +23,21 @@ public class HomeWork3 {
      */
     public static void main(String[] args) {
 
+        double purchaseAmount = 100;
+        String paymentMethod = "card";
+
+        switch (paymentMethod) {
+            case "cash":
+                System.out.println(purchaseAmount);
+                break;
+            case "card":
+                System.out.println(purchaseAmount * 1.02);
+                break;
+            case "account":
+                System.out.println(purchaseAmount * 1.05);
+                break;
+            default:
+                System.out.println("Invalid entry!");
+        }
     }
 }
