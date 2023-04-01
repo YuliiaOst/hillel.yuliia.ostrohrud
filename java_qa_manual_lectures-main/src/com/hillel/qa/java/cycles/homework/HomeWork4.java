@@ -38,7 +38,7 @@ public class HomeWork4 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Введіть висоту трикутника:");
-        double height = input.nextDouble();
+        int height = input.nextInt();
 
         System.out.println("Введіть символ:");
         char symbol = input.next().charAt(0);
