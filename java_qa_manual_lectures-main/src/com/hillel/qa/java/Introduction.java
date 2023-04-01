@@ -60,13 +60,16 @@ public class Introduction {
 
         if (bodyTemperature < 36.6) {
             System.out.println("Ви маєте низьку температуру, зверніться до лікарні!");
-        }else if (bodyTemperature == 36.6){
+        } else if (bodyTemperature == 36.6) {
             System.out.println("Ви здоровий!");
         } else {
             System.out.println("Ви маєте високу температуру, зверніться до лікарні!");
         }
 
-
+        int n = 50;
+        while (n > 0) {
+            System.out.println("QA це круто!");
+        }
 
 
         // TODO: Створіть свій клас та виведіть там "QA це круто!"
